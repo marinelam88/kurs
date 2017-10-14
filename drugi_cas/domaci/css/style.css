@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+}
+
+p{
+	font-family: 'Dosis', sans-serif;
+	line-height: 1.5;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.main h1, h2, h3{
+	font-family: 'Merienda', cursive;
+}
+
+.paragraph{
+	text-indent: 2em;
+	display: inline-block; 
+	text-align: justify; 
+	margin-top: 2em;
+}
+
+.paragraph img{
+	float: left;
+	margin: 1em 1em 1em 0;
+}
+
+.paragraph span{
+	font-family: 'Merienda', cursive;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+h1, h2, h3{
+	text-align: center;
+}
+
+.coloured{
+	background-color: #64C4ab;
+	margin: 0;
+}
+
+.coloured h3{
+	padding-top: 1em;
+}
+
+.coloured h2{
+	padding-bottom: 1em;
+}
+
+.about-author p{
+	text-align: justify;
+}
+
+.about-author img {
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	height: 15em;
+}
+
+strong{
+	font-size: 1.2em;
+}
