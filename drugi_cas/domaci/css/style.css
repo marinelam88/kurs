@@ -13,6 +13,14 @@ p{
 	font-family: 'Merienda', cursive;
 }
 
+.main h2{
+	font-style: italic;
+}
+
+h1{
+	text-transform: uppercase;
+}
+
 .paragraph{
 	text-indent: 2em;
 	display: inline-block; 
