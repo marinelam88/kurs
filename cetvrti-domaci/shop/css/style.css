@@ -1,0 +1,210 @@
+header{
+	height: 4em;
+	padding-bottom: 1em;
+}
+
+.logo{
+	font-size: 2em;
+	font-family: 'Russo One', sans-serif;
+	float: left;
+	color: #be0000;
+	padding-left: 2em;
+	padding-top: .5em;
+}
+
+nav ul{
+	float: right;
+	padding-right: 4em;
+	padding-top: .5em;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 0 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+li a:hover{
+	color: #be0000;
+}
+
+#cancel{
+	position: relative;
+	left: 98%;
+}
+
+.content-wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.main-content{
+	overflow: auto;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+}
+
+.description{
+	display: inline-block;
+	float: left;
+	width: 40%;
+	line-height: 1.5;
+	font-size: 1.3em;
+	text-align: justify;
+}
+
+h3{
+	font-weight: normal;
+}
+
+.bold-text{
+	font-weight: bold;
+}
+
+.image-container{
+	float: right;
+	padding-right: 5em;
+}
+
+.image-container img{
+	width: 550px;
+	height: 550px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+table{
+	border-collapse: collapse;
+	font-size: 1.2em;
+	width: 100%;
+}
+
+thead th:not(:first-of-type){
+	border-left: 1px solid #ccc;
+}
+
+th, td{
+	padding: 1em 2em;
+	text-align: center;
+}
+
+tr:nth-child(even){
+	background-color: #ccc;
+}
+caption{
+	caption-side: bottom;
+	text-align: left;
+	padding-top: 1em;
+}
+
+@media screen and (max-width: 1312px){
+	.image-container{
+		padding-right: 0;
+	}
+
+	.image-container img{
+		width: 400px;
+		height: 400px;
+	}
+
+	.description {
+	    line-height: 1; 
+	    font-size: 1em; 
+	}
+}
+
+@media screen and (max-width: 900px){
+	.description{
+		width: 100%;
+		display: block;
+	}
+
+	.image-container{
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	table{
+		font-size: 1em;
+	}
+
+	th, td{
+		padding: 1em;
+	}
+
+}
+
+@media screen and (max-width: 625px){
+	header{
+		height: 12em;
+	}
+
+	.logo{
+		float: none;
+		padding-left: 1em;
+	}
+
+	nav ul{
+		float: none;
+		display: block;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	nav ul li{
+		display: block;
+		padding: .3em 0 .3em 0;
+	}
+	.main-content{
+		overflow: hidden;
+	}
+
+	.image-container{
+		width: 90%;
+	}
+
+	th, td{
+		padding: .2em;
+	}
+}
+
+@media screen and (max-width: 570px){
+	.image-container img{
+		width: 250px;
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 425px){
+	h1{
+		font-size: 1.5em;
+	}
+
+	h2{
+		font-size: 1.2em;
+	}
+
+	table{
+		font-size: .7em;
+	}
+
+	th, td{
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.image-container img{
+		width: 200px;
+		height: 200px;
+	}
+}

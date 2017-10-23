@@ -1,0 +1,120 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.form-container{
+	background-image: url("../images/resized.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50em;
+}
+
+form{
+	font-size: 1.3em;
+	color: #fff;
+	padding-top: 8em;
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.group{
+	padding: .5em;
+}
+
+.line-labels{
+	display: inline-block;
+	width: 7em;
+}
+
+.radio-label{
+	padding-right: .5em;
+	padding-left: .5em;
+}
+
+label{
+	font-weight: bold;
+}
+
+input:not([type='radio']){
+	border-radius: 3px;
+	padding: .5em;
+	width: 30em;
+}
+
+button{
+	margin: .5em;
+	padding: .8em;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 3px;
+	background-color: #b30000;
+	color: #fff;
+	width: 12em;
+}
+
+button:hover {
+	background-color: #c20000;
+}
+
+select{
+	border-radius: 3px;
+	padding: .3em;
+	margin-left: 2em;
+}
+
+p{
+	font-size: 1.2em;
+	text-align: left;
+}
+
+@media screen and (max-width: 1320px){
+	form{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 820px){
+	form{
+		font-size: 1em;
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 560px){
+	form{
+		padding-top: 2em;
+	}
+
+	.group{
+		padding-left: 0;
+	}
+
+	select{
+		display: block;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	input:not([type='radio']){
+		width: 100%;
+	}
+	
+}
+
+@media screen and (max-width: 425px){
+	button{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.group{
+		padding-left: .5em;
+	}
+	input:not([type='radio']){
+		width: 92%;
+		margin: 0 auto;
+	}
+}

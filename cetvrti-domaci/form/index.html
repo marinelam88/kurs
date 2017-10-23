@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Form</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	</head>
+	<body>
+		<div class="form-container">
+			<form>
+				<div class="group">
+					<label class='line-labels' for="first-name">First name:</label>
+					<input type="text" name="first-name" id="first-name">
+				</div>
+				<div class="group">
+					<label class='line-labels' for="last-name">Last name:</label>
+					<input type="text" name="last-name" id="last-name">
+				</div>
+				<div class="group">
+					<label class='line-labels' for="email">Email:</label>
+					<input type="email" name="email" id="email">
+				</div>
+				<div class="group">
+					<label class='line-labels' for="password">Password:</label>
+					<input type="password" name="password" id="password">
+				</div>
+				<div class="group">
+					<label class='line-labels' for="gender">Your gender: </label>
+					<label class='radio-label'>Male</label><input type="radio" name="gender" value="male" checked>
+					<label class='radio-label'>Female</label><input type="radio" name="gender" value="female">
+				</div>
+				<div class="group">
+					<label for="packages">Choose your favourite package:</label>
+					<select>
+						<option value="starter" selected="selected">Starter</option>
+						<option value="student">Student</option>
+						<option value="advanced">Advanced</option>
+						<option value="supreme">Supreme</option>
+					</select>
+					<p></p>
+				</div>
+				<button type="submit">Join us</button>
+			</form>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+		</script>
+		<script>
+			$(document).ready(function(){
+				var initializeSelectedItem = function(){
+					var $selectedItem = $('select').find(":selected");
+					var $select = $('select');
+					if($selectedItem.val() === "starter"){
+						$select.siblings('p').text('Get in shape with three trainings a week for only 20$.');
+					}
+					else if($selectedItem.val() === "student"){
+						$select.siblings('p').text('Get your chance to become our member for only 15$.');
+					}
+					else if($selectedItem.val() === "advanced"){
+						$select.siblings('p').text('Five trainings a week + free sauna for only 40$.');
+					}
+					else if($selectedItem.val() === "supreme"){
+						$select.siblings('p').text('Five trainings a week + free sauna + free massage for 50$.');
+					}
+				};
+
+				initializeSelectedItem();
+
+				$('select').change(function(){
+					initializeSelectedItem();
+				})
+			})
+		</script>
+	</body>
+</html>
