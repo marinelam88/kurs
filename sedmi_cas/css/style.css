@@ -1,0 +1,413 @@
+body{
+	font-family: Helvetica, sans-serif;
+}
+
+.intro-mobile{
+	background-color: #212121;
+	position: relative; 
+}
+
+.burger{
+	display: inline-block;
+	width: 100%;
+}
+
+.fa-bars, .fa-times{
+	color: #ccc;
+	position: absolute;
+	top: 1em;
+	left: 2em;
+	font-size: 20px !important;
+}
+
+.close{
+	display: none;
+}
+
+.logo-mobile{
+	width: 2em;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 1em;
+	display: inline-block;
+}
+
+.logo-mobile img{
+	max-width: 100%;
+	height: auto;
+}
+
+.mobile-menu{
+	display: none;
+	background: rgba(0, 0, 0, .5);
+	margin-top: 4em;
+}
+
+.mobile-menu ul{
+	width: 100%;
+}
+
+.mobile-menu ul li{
+	list-style: none;
+	padding: .5em;
+}
+
+.mobile-menu ul li a{
+	color: #ccc;
+	text-decoration: none;
+}
+
+.intro-lg{
+	display: none;
+}
+
+.description{
+	margin: 5em 0 2em 0;
+}
+
+.description h1{
+	color: #fff;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 1em;
+}
+
+.description p{
+	color: #ccc;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.intro-mobile button{
+	margin: 2em auto;
+	display: block;
+	background: #fff;
+	color: #7289da;
+	border: transparent;
+	border-radius: 5px;
+	padding: .8em;
+}
+
+.container-mobile{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+.container-mobile img{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+
+.img-container{
+	display: none;
+}
+
+.transparent-btn{
+	display: none;
+}
+
+footer{
+	background: #161616;
+	padding-top: 3em;
+	padding-bottom: 2em;
+}
+
+footer img{
+	width: 30%;
+	margin-top: 2em;
+	margin-left: 3em;
+}
+
+
+footer section{
+	display: inline-block;
+	margin-top: 1em;
+	width: 45%;
+	vertical-align: top;
+	text-align: center;
+}
+
+footer ul li{
+	list-style: none;
+	text-align: center;
+	padding-bottom: .5em;
+}
+
+footer ul li:first-child{
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 2em;
+	margin-bottom: .5em;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: #ccc;
+}
+
+footer h2, footer h3{
+	text-align: center;
+}
+
+footer h2{
+	color: #fff;
+	border-top: .5px solid #ccc;
+	padding-top: 2em;
+}
+
+footer h3{
+	color: #ccc;
+}
+
+.sign-up{
+	color: #7289da;
+	background: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: .8em;
+	border: transparent;
+	border-radius: 5px;
+}
+
+@media screen and (min-width: 960px){
+	.intro-mobile{
+		display: none;
+	}
+
+	.intro-lg{
+		background: #212121;
+		display: block;
+	}
+
+	.navigation{
+		display: inline-block;
+		float: left;
+	}
+
+	.logo{
+		display: inline-block;
+		float: left;
+		width: 12em;
+	}
+
+	.logo img{
+		width: 80%;
+		height: auto;
+		padding-left: 1em;
+		margin-top: .5em;
+	}
+
+	.social{
+		display: inline-block;
+		float: right;
+		color: #ccc;
+		padding-right: 4em;
+	}
+
+	.social i{
+		margin-right: 1em;
+		margin-top: 1em;
+	}
+
+	.social button{
+		border-radius: 20px;
+		border: 2px solid #ccc;
+		background: transparent;
+		color: #ccc;
+		font-size: .9em;
+		padding: .5em;
+		width: 5em;
+	}
+
+	nav{
+		float: right;
+	}
+
+	nav ul{
+		padding: 0;
+	}
+
+	nav ul li{
+		display: inline-block;
+		padding: .2em .5em;
+	}
+
+	nav ul li a{
+		text-decoration: none;
+		color: #ccc;
+		font-weight: bold;
+	}
+
+	.intro-lg h1{
+		color: #fff;
+		text-align: center;
+		padding-top: 5em;
+	}
+
+	.intro-lg p{
+		color: #ccc;
+		text-align: center;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.clearfix{
+		clear: both;
+	}
+
+	.btn-group{
+		margin-top: 3em;
+		text-align: center;
+	}
+
+	.white-button{
+		border: transparent;
+		border-radius: 5px;
+		background: #fff;
+		padding: 1em;
+		width: 18em;
+	}
+
+	.green-button{
+		border: transparent;
+		border-radius: 5px;
+		background: #43b581;
+		padding: 1em;
+		width: 18em;
+	}
+
+	.description{
+		margin: 0;
+	}
+
+	.img-container{
+		display: block;
+		position: relative;
+		width: 80%;
+		margin: 0 auto;
+		height: 40em;
+		text-align: center;
+		overflow: hidden;
+		max-width: 1400px;
+	}
+
+
+
+	.img-container img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	#phone{
+		position: absolute;
+		left: 2em;
+		top: 22em;
+	}
+
+	#iphone{
+		position: absolute;
+		left: 11em;
+		top: 22em;
+		z-index: 5;
+	}
+
+	#joystick{
+		position: absolute;
+		z-index: 2;
+		top: 31em;
+		left: 22em;
+	}
+
+	#computer{
+		position: absolute;
+		top: 8.5em;
+		left: 18em;
+		z-index: 1;
+	}
+
+	#laptop{
+		position: absolute;
+		left: 35em;
+		top: 16em;
+		z-index: 3;
+	}
+
+	#headphones{
+		position: absolute;
+		top: 14em;
+		left: 55em;
+		z-index: 4;
+	}
+
+	footer{
+		background: #161616;
+		padding-top: 5em;
+		position: relative;
+	}
+
+	footer section{
+		display: inline-block;
+		margin-top: 3em;
+		width: 15%;
+		padding-bottom: 5em;
+		vertical-align: top;
+	}
+
+	.transparent-btn{
+		display: block;
+		width: 20%;
+		margin: 0 auto;
+		background: transparent;
+		border: 1px solid #ccc;
+		color: #ccc;
+		padding: 1em;
+		border-radius: 5px;
+
+	}
+
+	footer img{
+		width: 30%;
+		float: right;
+		margin-top: 2.5em;
+	}
+
+	footer h2{
+		color: #fff;
+		margin-left: 5em;
+		display: inline-block;
+		border-top: none;
+	}
+
+	footer h3{
+		color: #ccc;
+		text-transform: uppercase;
+		margin-left: 6em;
+		display: inline-block;
+	}
+
+	.footer{
+		width: 80%;
+		margin: 0 auto;
+		border-bottom: 1px solid #ccc;
+		margin: 0 auto;
+	}
+
+	.sign-up{
+		background-color: #7289da;
+		position: absolute;
+		right: 7em;
+		top: 36em;
+		padding: 1em;
+		border: transparent;
+		border-radius: 5px;
+		color: #fff;
+	}
+}
+
