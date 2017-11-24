@@ -14,15 +14,27 @@ checkIfOddOrEven();
 
 //drugi zadatak:
 
-function sumNumbers(){
+// function sumNumbers(){
+// 	var sum = 0;
+// 	for(i=0; i<=10; i++){
+// 		sum+=i;
+// 	}
+// 	console.log("Sum of first 10 numbers is " + sum);
+// }
+
+// sumNumbers();
+
+//drugi zadatak sa parametrima
+
+function sumNumbers(n){
 	var sum = 0;
-	for(i=0; i<=10; i++){
-		sum+=i;
+	for(i=0; i<=n; i++){
+		sum += i;
 	}
-	console.log("Sum of first 10 numbers is " + sum);
+	console.log("Result is " + sum);
 }
 
-sumNumbers();
+sumNumbers(12);
 
 //treci zadatak 
 
@@ -51,12 +63,22 @@ calculateFactoriel(5);
 
 //cetvrti zadatak
 
-function numberOfItems(){
-	var availableAmountOfMoney = 325;
-	var price = 14;
-	var amount = availableAmountOfMoney/price;
-	console.log("You can buy " + Math.round(amount) + " items.");
+function numberOfItems(amountOfMoney, price){
+	var items = amountOfMoney/price;
+	console.log("You can buy " + Math.floor(items) + " items.");
 }
 
-numberOfItems();
+numberOfItems(325, 125);
 
+//peti zadatak
+
+function sumOfNumbers(n, k){
+	var value = 0;
+	for(var i=n; i<=k; i++){
+		value += i;
+	}
+	console.log("Result is " + value);
+}
+
+
+sumOfNumbers(-2, 10);
