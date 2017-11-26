@@ -12,7 +12,7 @@ for(var i = 0; i<priceArray.length; i++){
 	sum += price;
 }
 
-console.log("Sum of prices with tax is " + sum);
+console.log("Sum of prices with tax is " + sum.toFixed(2));
 
 //drugi zadatak
 
