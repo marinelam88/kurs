@@ -5,9 +5,9 @@ var price;
 var sum = 0;
 for(var i = 0; i<priceArray.length; i++){
 	if(priceArray[i] < 50){
-		price = priceArray[i] * 1.08;
-	}else{
 		price = priceArray[i] * 1.18;
+	}else{
+		price = priceArray[i] * 1.08;
 	}
 	sum += price;
 }
