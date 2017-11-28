@@ -2,7 +2,7 @@
 // Unutar funkcije generisati nasumičan broj (Math.random) od 1-10 i ispisati korisniku da li je pogodio broj ili ne.
 
 function guessTheNumber(num){
-	var randomNumber = Math.floor(Math.random() * 9 + 1);  
+	var randomNumber = Math.floor(Math.random() * 10 + 1);  
 	if(num < randomNumber){
 	console.log("Your guess is lower. My guess is " + randomNumber);
 	}else if(num > randomNumber){
