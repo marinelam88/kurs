@@ -17,29 +17,51 @@ guessTheNumber(9);
 //2. Napisati funkciju koja prima 4 broja, posebno sabira pozitivne, posebno negativne i vraća njihov proizvod
 // (pozitivni * negativni)
 
+// Duze resenje:
+
+// function calc(arrayOfNumbers){
+// 	var positive = [];
+// 	var negative = [];
+// 	var sumOfPositive = 0;
+// 	var sumOfNegative = 0; 
+
+// 	for(var i = 0; i < arrayOfNumbers.length; i++){
+// 		if(arrayOfNumbers[i] < 0){
+// 			negative.push(arrayOfNumbers[i]);
+// 		}else{
+// 			positive.push(arrayOfNumbers[i]);
+// 		}
+// 	}
+// 	for(var i = 0; i < positive.length; i++){
+// 		sumOfPositive += positive[i];
+// 	}
+
+// 	for(var i = 0; i < negative.length; i++){
+// 		sumOfNegative += negative[i];
+// 	}
+
+// 	var result = sumOfPositive * sumOfNegative;
+
+// 	console.log("Result is " + result);
+// }
+
+// calc([-2, 5, 10, -4]);
+
+// Skraceno: 
+
 function calc(arrayOfNumbers){
-	var positive = [];
-	var negative = [];
 	var sumOfPositive = 0;
-	var sumOfNegative = 0; 
+	var sumOfNegative = 0;
 
 	for(var i = 0; i < arrayOfNumbers.length; i++){
-		if(arrayOfNumbers[i] < 0){
-			negative.push(arrayOfNumbers[i]);
+		if(arrayOfNumbers[i] >=0 ){
+			sumOfPositive += arrayOfNumbers[i];
 		}else{
-			positive.push(arrayOfNumbers[i]);
+			sumOfNegative += arrayOfNumbers[i];
 		}
-	}
-	for(var i = 0; i < positive.length; i++){
-		sumOfPositive += positive[i];
-	}
-
-	for(var i = 0; i < negative.length; i++){
-		sumOfNegative += negative[i];
 	}
 
 	var result = sumOfPositive * sumOfNegative;
-
 	console.log("Result is " + result);
 }
 
@@ -91,12 +113,13 @@ function changeElementsOfTheArray(numArray, num1, num2){
 	if(num1 > numArray.length - 1 || num2 > numArray.length -1){
 		console.log("Provided index(es) is(are) not valid.");
 	}
-	numArray[num1] = 1;
-	numArray[num2] = 5;
+	var c = numArray[num1];
+	numArray[num1] = numArray[num2];
+	numArray[num2] = c;
 	console.log(numArray);
 }
 
-changeElementsOfTheArray([1, 2, 3, 4, 5], 3, 2);
+changeElementsOfTheArray([3, 8, 16, 4, 57], 0, 2);
 
 //6. Napisati funkciju koja prima niz i vraća drugi niz sa obrnutim redosledom elemenata, tako da je poslednji element u
 // prvom nizu bude prvi element u poslednjem nizu, pretposlednji drugi, itd... 
