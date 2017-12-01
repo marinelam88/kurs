@@ -1,0 +1,1149 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.mobile-nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	height: auto;
+	background: #fff;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.flag{
+	width: 15px;
+	height: 10px;
+}
+
+.caret{
+	display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.mobile-menu{
+	display: none;
+	text-align: center;
+	width: 100%;
+}
+
+#menu-cont{
+	width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.mobile-menu ul{
+	padding: 0;
+}
+
+.mobile-menu ul li{
+	list-style: none;
+	padding-bottom: .5em;
+}
+
+.mobile-menu ul li a{
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: .3em;
+	font-size: .8em;
+}
+
+.lg-nav{
+	display: none;
+}
+
+.logo img{
+	margin: 1em;
+}
+
+.mobile-nav .fa{
+	margin-right: 1em;
+	font-size: 1.8em;
+	margin-left: auto;
+}
+
+.intro{
+	background-image: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/slider-3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 35em;
+	background-position: center;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.intro h1{
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: .3em;
+	text-align: center;
+	padding-top: 6em;
+}
+
+.intro h2{
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+}
+
+.btn-left{
+	position: absolute;
+	top: 18em;
+	left: 0;
+}
+
+.btn-right{
+	position: absolute;
+	top: 18em; 
+	right: 0;
+}
+
+.btn-left, .btn-right{
+	background: #fff;
+	padding: .3em;
+	letter-spacing: .1em;
+	font-size: .9em;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 1px solid #fff;
+}
+
+.active-span{
+	background: #fff;
+    border-radius: 0;
+    height: 3px;
+    width: 40px;
+    margin-top: 30em;
+    margin-left: 2em;
+    color: #fff;
+}
+
+.about{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.about h2{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1em;
+	text-transform: uppercase;
+}
+
+.about p{
+	line-height: 1.5;
+}
+
+.about-lg{
+	display: none;
+}
+
+.blue{
+	color: #0D4494;
+	font-size: 1.4em;
+}
+
+.with-border{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 2em;
+}
+
+.team{
+	display: flex;
+	flex-direction: column;
+	background-color: #F5F7FA;
+}
+
+.team h2{
+	text-align: center;
+}
+
+.overlay{
+	display: none;
+	background-color: rgba(13,68,148, .8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+}
+
+.overlay h2{
+	text-transform: uppercase;
+	color: #fff;
+	position: absolute;
+	top: 48%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.container{
+	position: relative;
+}
+
+.team-member{
+	align-items: center;
+	margin: 0 auto;
+	height: auto;
+	background: #fff;
+	margin-bottom: 2em;
+	flex-wrap: wrap;
+}
+
+.team-member h4{
+	text-transform: uppercase;
+	margin-top: 0;
+	color: #999999;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.team-member h3{
+	color: #0D4494;
+	margin-bottom: .2em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	text-align: center;
+}
+
+.buy-theme{
+	background-image: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/buy-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	height: 12em;
+}
+
+.buy-theme h4{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: .2em;
+	padding-top: 5em;
+}
+
+.buy-btn{
+	background: #0D4494;
+	color: #fff;
+	text-transform: uppercase;
+	padding: .6em;
+	border: 1px solid #0D4494;
+	letter-spacing: .3em;
+	font-size: .9em;
+	display: block;
+	margin: 0 auto;
+}
+
+.services-lg{
+	display: none;
+}
+
+.services{
+	width: 80%;
+	margin-left: 1em;
+}
+
+.services h2{
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1em;
+}
+
+.service i{
+	border: 3px solid #F5F7FA;
+	padding: .7em;
+	font-size: 20px;
+	height: 1em;
+	color: #0D4494;
+}
+
+.service{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.description{
+	width: 60%;
+	margin-left: 2em;
+}
+
+.service h4{
+	margin-top: 0;
+	margin-bottom: .2em;
+	text-transform: uppercase;
+}
+
+.description p{
+	color: #5e5e5e;
+	line-height: 1.5;
+}
+
+.service:last-child{
+	border-bottom: 1px solid #ccc;
+}
+
+.clients{
+	background: url("http://mnml.seoanatomy.com/wp-content/themes/mnml/images/pattern.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 3em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: auto;
+	width: 100%;
+}
+
+.clients img{
+	width: 35%;
+	height: 35%;
+	justify-content: space-between;
+	margin: 1em;
+}
+
+.pricing-lg{
+	display: none;
+}
+
+.pricing{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.title{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1em;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .3em;
+}
+
+.option{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.option div{
+	width: 100%;
+}
+
+.big{
+	font-size: 3.5em;
+	margin: 0;
+}
+
+.big-blue{
+	font-size: 3.5em;
+	margin: 0;
+	color: #0D4494;
+}
+
+.different{
+	color: #094494;
+}
+
+
+sup{
+	font-size: 1.5em;
+	position: relative;
+	top: -.8em;
+}
+
+.option button{
+	transition: all 0.3s ease-in 0s;
+    vertical-align: top;
+    height: 2em;
+    letter-spacing: .2em;
+    padding: .2em 0;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    color: #fff;
+    background: #0D4494;
+    border: 1px solid #0D4494;
+    width: 80%;
+    margin-top: 5em;
+}
+
+.achievements{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.achievement{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: .2em;
+	min-width: 45%;
+}
+
+.achievement i{
+	font-size: 20px;
+	color: #0D4494;
+}
+
+.achievement h3{
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 1em;
+}
+
+.achievement p{
+	margin-top: 0;
+}
+
+.option h2{
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: .3em;
+}
+
+.achievements{
+	background: url("http://mnml.seoanatomy.com/wp-content/themes/mnml/images/pattern.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 3em;
+}
+
+.gallery{
+	text-align: center;
+}
+
+.upper-text{
+	color: #fff;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	background: rgba( 0, 0, 0, .5);
+	width: 100%;
+}
+
+.upper-text h2{
+	margin-bottom: 0;
+	font-size: 1em;
+	letter-spacing: .2em;
+}
+
+.upper-text h3{
+	margin-top: .2em;
+	font-size: .8em;
+	letter-spacing: .3em;
+}
+
+.gallery-item-1{
+	background-image: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/brooklyn-bridge.jpg");
+	background-size: cover;
+	height: 15em;
+	background-position: center;
+	margin-bottom: .2em;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-item-2{
+	background-image: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/autumn.jpg");
+	height: 15em;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: .2em;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-item-3{
+	background-image: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/windmill.jpg");
+	background-size: cover;
+	height: 15em;
+	background-position: center;
+	margin-bottom: .2em;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-item-4{
+	background-image: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/parkland.jpg");
+	height: 15em;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: .2em;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-item-5{
+	background-image: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/forest.jpg");
+	height: 15em;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: .2em;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-item-6{
+	background-image: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/plane.jpg");
+	height: 15em;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: .2em;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-item-7{
+	background-image: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/jumping-in-nature.jpg");
+	height: 15em;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: .2em;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-item-8{
+	background-image: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/frozen-nature.jpg");
+	height: 15em;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: .2em;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-item-9{
+	background-image: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/wheat.jpg");
+	height: 15em;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: .2em;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery table{
+	width: 100%;
+}
+
+.gallery{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.portfolio{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+.filters{
+	margin-bottom: 1em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.filters div:first-child, .filters div:nth-child(2){
+	width: 100%;
+}
+
+.filters a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #5A5A5A;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin-right: 1em;
+}
+
+.filters a:hover{
+	color: #0D4494;
+}
+
+.filters:nth-child(3){
+	display: inline-block;
+	width: 45%;
+}
+
+.filters:nth-child(4){
+	display: inline-block;
+	width: 45%;
+}
+
+.portfolio h2{
+	border-bottom: 1px solid #ccc;
+	font-size: 2.8em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	padding-bottom: .5em;
+}
+
+form input, select, textarea{
+	border: none;
+	border-bottom: 2px solid #000;
+	padding-top: 1em;
+	width: 100%;
+}
+
+textarea{
+	line-height: .5;
+}
+
+::placeholder{
+	color: #000;
+	letter-spacing: .2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: .7em;
+}
+
+.contact-lg{
+	display: none;
+}
+
+.contact-title{
+	display: none;
+}
+
+.contact{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.contact h2{
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: .5em;
+	letter-spacing: .3em;
+}
+
+.same-line{
+	display: inline-block;
+	width: 48%;
+}
+
+select{
+	margin-left: .5em;
+	color: #0D4494;
+	text-transform: uppercase;
+	font-size: .7em;
+	font-weight: bold;
+}
+
+form button{
+	background: #0D4494;
+	border: 1px solid #0D4494;
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: .7em;
+	padding: .8em;
+	letter-spacing: .2em;
+	margin-top: 1em;
+}
+
+footer{
+	width: 80%;
+	margin: 0 auto;
+}
+
+footer h2{
+	color: #0D4494;
+	text-transform: uppercase;
+}
+
+footer p{
+	text-transform: uppercase;
+	font-size: .8em;
+	letter-spacing: .2em;
+}
+
+.social .fa{
+	width: 1.2em;
+	text-align: center;
+}
+
+.fa-facebook{
+	border: 1px solid #3B5A9B;
+	background-color: #3B5A9B;
+	color: #fff;
+	padding: .6em;
+	margin-right: .5em;
+}
+
+.fa-twitter{
+	border: 1px solid #2B97F0;
+	background-color: #2B97F0;
+	color: #fff;
+	padding: .6em;
+	margin-right: .5em;
+}
+
+.fa-google-plus{
+	border: 1px solid #DB2814;
+	background-color: #DB2814;
+	color: #fff;
+	padding: .6em;
+	margin-right: .5em;
+}
+
+.fa-linkedin{
+	border: 1px solid #0077b5;
+	background-color: #0077b5;
+	color: #fff;
+	padding: .6em;
+	margin-right: .5em;
+}
+
+.fa-behance{
+	border: 1px solid #131418;
+	background-color: #131418;
+	color: #fff;
+	padding: .6em;
+}
+
+.copyright-lg{
+	display: none;
+}
+
+.copyright p{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: .8em;
+	font-weight: bold;
+	letter-spacing: .2em;
+	margin-top: 3em;
+}
+
+@media screen and (min-width: 425px){
+	.pricing{
+		display: none;
+	}
+	.pricing-lg{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.pricing-img{
+		display: none;
+	}
+
+	.pricing-content{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.option button{
+		margin-top: 0;
+	}
+
+	.filters div:first-child, .filters div:nth-child(2){
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.about{
+		display: none;
+	}
+
+	.about-lg{
+		display: flex;
+		flex-direction: row;
+		padding-right: 1em;
+		height: 35em;
+	}
+
+	.about-img{
+		background: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/about-background.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: inherit;
+		width: 20%;
+		margin-right: 3em;
+	}
+
+	.about-content{
+		width: 75%;
+		margin-left: auto;
+	}
+
+	.team .team-wrapper{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.team-member{
+		width: 30%;
+	}
+
+	.services{
+		display: none;
+	}
+
+	.services-img{
+		background-image: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/services-background.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 20%;
+		margin-left: auto;
+		background-position: center;
+	}
+
+	.services-lg{
+		display: flex;
+		flex-direction: row;
+		height: 45em;
+	}
+
+	.services-content{
+		width: 55%;
+		margin-left: 2em;
+	}
+
+	.services-content h2{
+		border-bottom: 1px solid #ccc;
+		text-transform: uppercase;
+		padding-bottom: 1em;
+	}
+
+	.clients{
+		flex-wrap: nowrap;
+		margin-top: 0;
+	}
+
+	.clients img{
+		width: 20%;
+		height: 20%;
+	}
+
+	.filters div:first-child, .filters div:nth-child(2){
+		width: initial;
+	}
+
+	.pricing{
+		display: none;
+	}
+
+	.pricing-lg{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.title{
+		text-align: left;
+	}
+
+	.pricing-img{
+		background: url("http://mnml.seoanatomy.com/wp-content/uploads/2016/12/pricing-background.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 20%;
+		background-position: center;
+		height: 40em;
+		display: block;
+	}
+
+	.pricing-content{
+		margin-left: auto;
+		width: 70%;
+	}
+
+	.offer{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.offer p{
+		margin: .5em;
+	}
+
+	.option button{
+		margin-top: 0;
+		margin-bottom: .3em;
+	}
+
+	.option{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.achievements{
+		margin-top: 0;
+		height: 8em;
+	}
+
+	.achievement{
+		min-width: 20%;
+		justify-content: center;
+	}
+
+	.gallery{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 98%;
+		margin: 0 auto;
+		justify-content: space-between;
+	}
+
+	.gallery-item-1, .gallery-item-2, .gallery-item-3, .gallery-item-4, .gallery-item-5, .gallery-item-6, .gallery-item-7, 
+	.gallery-item-8, .gallery-item-9{
+		width: 49.8%;
+	}
+
+	.same-line{
+		width: 49%;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.mobile-nav{
+		display: none;
+	}
+
+	.lg-nav{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.lg-menu{
+		margin-left: 3em;
+	}
+
+	.lg-menu nav ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.lg-menu nav ul li{
+		list-style: none;
+		margin-left: 1em;
+	}
+
+	.lg-menu nav ul li a{
+		text-decoration: none;
+		color: #000;
+		text-transform: uppercase;
+		letter-spacing: .2em;
+		font-size: 1em;
+	}
+
+	.about-img{
+		width: 40%;
+	}
+
+	.about-content{
+		width: 55%;
+	}
+
+	.services-img{
+		width: 40%;
+	}
+
+	.team-wrapper{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.team-member{
+		width: 30%;
+	}
+
+	.pricing-img{
+		width: 40%;
+		height: 50em;
+	}
+
+	.pricing-content{
+		width: 55%;
+	}
+
+	.option{
+		padding-bottom: 1em;
+	}
+
+	.option button{
+	    margin-top: 1em;
+	    width: 50%;
+	}
+
+	.contact{
+		display: none;
+	}
+
+	footer{
+		display: none;
+	}
+
+	.contact-lg{
+		display: flex;
+		flex-direction: row;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.contact-wrapper{
+		display: flex;
+		width: 48%;
+		margin-right: auto;
+	}
+
+	.same-line{
+		width: 48%;
+	}
+
+	.info-wrapper{
+		display: flex;
+		flex-direction: column;
+		width: 48%;
+		margin-left: auto;
+		margin-top: 2em;
+	}
+
+	.info-wrapper h2{
+		color: #0D4494;
+		margin-bottom: 0;
+		margin-top: .1em;
+		text-transform: uppercase;
+	}
+
+	form input, select, textarea{
+		padding-top: 2em;
+	}
+
+	.gallery{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.gallery-item-1, .gallery-item-2, .gallery-item-3, .gallery-item-4, .gallery-item-5, .gallery-item-6, .gallery-item-7, 
+	.gallery-item-8, .gallery-item-9{
+		height: 20em;
+	}
+
+	.contact-title{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		border-bottom: 1px solid #ccc;
+		text-align: center;
+		text-transform: uppercase;
+		padding-bottom: .8em;
+		padding-top: 1em;
+		font-weight: bold;
+		font-size: 2em;
+		letter-spacing: .3em;
+	}
+
+	.copyright-lg{
+		display: block;
+		text-align: center;
+		margin-top: 1em;
+		text-transform: uppercase;
+	}
+
+}
+
+
+@media screen and (min-width: 1440px){
+	.lg-menu{
+		margin-left: 5em;
+	}
+	.about-img{
+		width: 48%;
+	}
+
+	.about-content{
+		width: 48%;
+	}
+
+	.pricing-img{
+		width: 48%;
+	}
+
+	.pricing-content{
+		width: 48%;
+	}
+
+	.services-content{
+		width: 40%;
+		margin: 0 auto;
+	}
+
+	.services-img{
+		width: 50%;
+	}
+
+	.big{
+		margin-left: .8em;
+		font-size: 5em;
+	}
+
+	.big-blue{
+		margin-left: .8em;
+		font-size: 5em;
+	}
+
+	.title{
+		width: 82%;
+		margin: 1em auto;
+	}
+
+	.team{
+		height: 50em;
+	}
+	.gallery-item-1, .gallery-item-2, .gallery-item-3, .gallery-item-4, .gallery-item-5, .gallery-item-6, .gallery-item-7, 
+	.gallery-item-8, .gallery-item-9{
+		width: 33.2%;
+	}
+}
+
+@media screen and (min-width: 2000px){
+	.option button{
+		width: 30%;
+	}
+}
