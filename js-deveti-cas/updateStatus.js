@@ -11,10 +11,12 @@ function publishPost(){
 	post.appendChild(postText);
 	post.classList.add("status");
 
-	posts.insertBefore(post, posts.childNodes[0]);
-	postContent.value = "";
+	if(postInput !== ""){
+		posts.insertBefore(post, posts.childNodes[0]);
+		postContent.value = "";
+	}
 }
 
-
 publishButton.onclick = publishPost;
+
 
