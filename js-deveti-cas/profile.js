@@ -29,6 +29,7 @@ fullName.innerHTML = profile.name + " " + profile.lastName;
 
 for(var i = profile.statusi.length - 1; i >= 0; i--){
 	var post = document.createElement("p");
+	post.classList.add("status");
 	var text = document.createTextNode(profile.statusi[i]);
 	post.appendChild(text);
 	posts.appendChild(post);
