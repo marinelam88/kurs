@@ -11,6 +11,7 @@ function publishPost(){
 	post.appendChild(postText);
 
 	posts.insertBefore(post, posts.childNodes[0]);
+	postContent.value = "";
 }
 
 
