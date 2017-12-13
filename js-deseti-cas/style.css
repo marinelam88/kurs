@@ -1,0 +1,183 @@
+.main{
+	background: #daecf5;
+}
+
+.container{
+	margin-top: 1em;
+}
+
+#intro{
+	position: relative;
+	padding-bottom: 10em;
+}
+
+#cover-img{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background: #888;
+	height: 6em;
+}
+
+#profile-photo{
+	width: 80px;
+	height: 80px;
+	border: 4px solid #fff;
+	background-color: #888;
+	position: absolute;
+	top: 3em;
+	left: 2em;
+	border-radius: 50%;
+}
+
+#post-form{
+}
+
+#posts{
+	margin: 1em 0;
+}
+
+
+.single-post{
+	position: relative;
+	background-color: #fff;
+	padding: 1em;
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 0;
+	height: auto;
+}
+
+.single-post p{
+	padding-left: 4em;
+	margin-top: 0;
+}
+
+.post-icons{
+	padding-top: 2em;
+	font-size: 18px;
+	padding-left: 2em;
+	margin-left: 2em;
+}
+
+.post-icons i{
+	padding-left: 3em;
+	color: #ccc;
+}
+
+.post-icons i:first-child{
+	padding-left: 0;
+}
+
+.post-photo{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.author{
+	margin-left: 1.4em;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+#post-content{
+	width: 100%;
+	display: block;
+	margin-bottom: 1em;
+	resize: none;
+	border-radius: 1em;
+	border: 1px solid #1dcaff;
+}
+
+#submit-btn{
+	background: #1dcaff;
+	border: 1px solid #1dcaff;
+	color: #fff;
+	padding: .4em;
+	border-radius: 8em;
+	font-size: 1em;
+	font-weight: bold;
+	width: 8em;
+	position: absolute;
+	right: 1em;
+}
+
+#full-name{
+	position: absolute;
+    top: 6em;
+    left: 8em;
+    width: 100%;
+}
+
+#full-name p{
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+#full-name span{
+	color: #a19c9c;
+	margin-top: 0;
+}
+
+#suggestions{
+	position: relative;
+}
+
+#suggestions p{
+	display: inline-block;
+}
+
+
+.icons i{
+	color: #1dcaff;
+	padding: .4em;
+	font-size: 20px;
+}
+.placeholder{
+	background-color: #888;
+	border-radius: 50%;
+}
+
+.follow-btn{
+	border: 1px solid #1dcaff;
+	display: block;
+	color: #1dcaff;
+	background: #fff;
+	border-radius: 8em;
+	margin-left: 4em;
+	font-weight: bold;
+	font-size: .8em;
+	width: 6em;
+	height: 2.2em;
+	margin-bottom: 1em;
+}
+
+.suggestion i{
+	color: #a19c9c;
+	margin-left: 2em;
+}
+
+.suggestion{
+	border-bottom: 2px solid #ccc;
+	margin-top: 1em;
+}
+
+.suggestion p{
+	font-weight: bold;
+}
+.suggestion span{
+	color: #a19c9c;
+}
+
+#activity{
+	margin-top: 6em;
+}
+
+#activity p{
+	font-weight: bold;
+}
+
+#activity span{
+	color: #1dcaff;
+	font-weight: bold;
+	font-size: 1.2em;
+}

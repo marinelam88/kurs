@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>twitter</title>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="main col-xs-12">
+		<div class="row container">
+			<div class="col-sm-12 col-md-3 col-md-offset-1" id="intro">
+				<div id="cover-img"></div>
+				<div id="profile-img">
+					<img src="" alt="" id="profile-photo">
+				</div>
+				<div id="full-name">
+				</div>
+				<div class="row" id="activity">
+					<div class="col-sm-3" id="tweets"></div>
+					<div class="col-sm-3" id="follows"></div>
+					<div class="col-sm-3" id="followers"></div>
+				</div>
+			</div>	
+			<div class="col-sm-12 col-md-5" id="post-form">
+				<textarea id="post-content" rows="4"></textarea>
+				<div class="icons">
+					<i class="fa fa-picture-o" aria-hidden="true"></i>
+					<i class="fa fa-file-video-o" aria-hidden="true"></i>
+					<i class="fa fa-bar-chart" aria-hidden="true"></i>
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					<button id="submit-btn">Submit</button>
+				</div>
+				<div class="row">
+					<div class="col-md-12" id="posts">
+					</div>
+				</div>	
+			</div>
+			<div class="col-sm-12 col-md-3 pull-right" id="suggestions">
+				<p>Who to follow</p>
+				<a href="#">Refresh</a>
+				<a href="#">See all</a>
+				<div class="suggestion">
+					<img class="placeholder" src="https://placeholdit.co//i/40x40?&bg=888" alt="placholder">
+					<p>John Doe </p><span> @john_doe</span>
+					<i class="fa fa-times" aria-hidden="true"></i>
+					<button class="follow-btn">Follow</button>
+				</div>
+				<div class="suggestion">
+					<img class="placeholder" src="https://placeholdit.co//i/40x40?&bg=888" alt="placholder">
+					<p>John Doe </p><span> @john_doe</span>
+					<i class="fa fa-times" aria-hidden="true"></i>
+					<button class="follow-btn">Follow</button>
+				</div>
+				<div class="suggestion">
+					<img class="placeholder" src="https://placeholdit.co//i/40x40?&bg=888" alt="placholder">
+					<p>John Doe </p><span> @john_doe</span>
+					<i class="fa fa-times" aria-hidden="true"></i>
+					<button class="follow-btn">Follow</button>
+				</div>
+			</div>
+		</div>
+		</div>		
+	</body>
+	<script src="profile.js"></script>
+	<script src="updateStatus.js"></script>
+</html>
