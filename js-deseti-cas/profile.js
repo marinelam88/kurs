@@ -100,19 +100,6 @@ usernameSpan.appendChild(spanText)
 fullName.appendChild(nameP);
 fullName.appendChild(usernameSpan);
 
-var tweets = document.getElementById("tweets");
-
-var tweetsP = document.createElement("p");
-var tweetTitle = document.createTextNode("Tweets");
-tweetsP.appendChild(tweetTitle);
-tweets.appendChild(tweetsP);
-
-var tweetSpan = document.createElement("span");
-var tweetNum = document.createTextNode(profile.tweets);
-tweetSpan.appendChild(tweetNum);
-
-tweets.appendChild(tweetSpan);
-
 var follows = document.getElementById("follows");
 
 var followsP = document.createElement("p");
@@ -144,6 +131,8 @@ for(var i = profile.posts.length -1; i >= 0; i--){
 	posts.appendChild(post);
 
 }
+
+
 
 
 

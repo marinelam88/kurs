@@ -88,6 +88,10 @@
 	border: 1px solid #1dcaff;
 }
 
+.post-content{
+	word-wrap: break-word;
+}
+
 #submit-btn{
 	background: #1dcaff;
 	border: 1px solid #1dcaff;
